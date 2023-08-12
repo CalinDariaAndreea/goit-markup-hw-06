@@ -12,3 +12,8 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+const checkIcon = document.getElementById("check-icon");
+
+checkIcon.addEventListener("click", () => {
+  checkIcon.classList.toggle("clicked");
+});
